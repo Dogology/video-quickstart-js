@@ -11,18 +11,15 @@ body {
 }
 
 div#remote-media {
-  height: 43%;
-  width: 100%;
   background-color: #fff;
-  text-align: center;
-  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 div#remote-media video {
-  border: 1px solid #272726;
-  margin: 3em 2em;
-  height: 70%;
-  max-width: 27% !important;
+  flex-grow: 1;
+  max-width: 33%;
+  border: 1px solid #fff;
   background-color: #272726;
   background-repeat: no-repeat;
 }
